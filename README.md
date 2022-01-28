@@ -6,7 +6,7 @@
 [![BuyMeCoffee][buymecoffee-shield]][buymecoffee]
 
 # Smart Garden
-The Smart Powermeter works as a shield for the TTGO T-Display allowing the measurement up to 6 CT clamps for reading electric current.
+The Smart Smart Garden provides an ESP32 based interface for controlling up to 4 relays. The output of the relays is a 24VAC or a selectable 5-24VDC power, mainly targeted to control sprinkles.
 
 <p float="left">
    <img src="./Documentation/Images/Top.png" width="49%">
@@ -22,8 +22,8 @@ The Smart Powermeter works as a shield for the TTGO T-Display allowing the measu
 
 
 
-[releases-shield]: https://img.shields.io/github/release/JGAguado/Smart_Powermeter.svg?style=for-the-badge
-[releases]: https://github.com/JGAguado/Smart_Powermeter/releases
+[releases-shield]: https://img.shields.io/github/release/JGAguado/Smart_Garden.svg?style=for-the-badge
+[releases]: https://github.com/JGAguado/Smart_Garden/releases
 
 [license-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge
 
