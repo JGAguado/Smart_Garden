@@ -14,7 +14,7 @@ The Smart Smart Garden provides an ESP32 based interface for controlling up to 4
 </p>
 
 ## Project tree
-
+---
 <li><a href="./Design/">Design</a></li>
 <li><a href="./Documentation/">Documentation</a></li>
 
