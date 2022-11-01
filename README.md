@@ -1,4 +1,5 @@
 
+[![Documentation Status][documentation-shield]][documentation]
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
 
@@ -21,6 +22,8 @@ The Smart Smart Garden provides an ESP32 based interface for controlling up to 4
 <li><a href="./README.md">README.md</a></li>
 
 
+[documentation-shield]: https://readthedocs.org/projects/smart-garden/badge/?version=latest&style=for-the-badge
+[documentation]: https://smart-garden.readthedocs.io/en/latest/
 
 [releases-shield]: https://img.shields.io/github/release/JGAguado/Smart_Garden.svg?style=for-the-badge
 [releases]: https://github.com/JGAguado/Smart_Garden/releases
