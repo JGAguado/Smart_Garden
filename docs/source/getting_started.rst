@@ -100,8 +100,8 @@ assigned previously via hardware:
 
 Next to the power jack connector, there are 4 slide switches that configure each of the 4 outputs as DC or AC:
 
-* If the *24 VAC* is selected, the controlled relay will output 0 or 24VAC. This is the way to control solenoid valves such as the `Hunter PGV series <https://www.hunterindustries.com/en-metric/node/28321`_ 
-  or the `Gardena's Irrigation Valve 24V <https://www.gardena.com/int/products/watering/water-controls/24-v-irrigation-valve/900904101/`_ 
+* If the *24 VAC* is selected, the controlled relay will output 0 or 24VAC. This is the way to control solenoid valves such as the `Hunter PGV series <https://www.hunterindustries.com/en-metric/node/28321>`_ 
+  or the `Gardena's Irrigation Valve 24V <https://www.gardena.com/int/products/watering/water-controls/24-v-irrigation-valve/900904101/>`_ 
 
 * If the *VDC* is selected, the controlled relay will output 0 or a regulated VDC voltage. This DC voltage can be adjusted through the blue trimmer in a range of 3.3 up to the input
   voltage through the jack connector. This is the way to control DC water pumps up to 10W. 

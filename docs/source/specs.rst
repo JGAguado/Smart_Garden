@@ -5,7 +5,7 @@ Electrical
 ----------
 
 .. list-table:: 
-    :widths: 50 20 20 20 20 20
+    :widths: 50 20 20 20 20
     :header-rows: 1
     :stub-columns: 1
 
