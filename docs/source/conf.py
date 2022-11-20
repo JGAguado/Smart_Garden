@@ -52,7 +52,7 @@ html_theme_options = {
 }
 html_context = {}
 
-html_logo = "images/logo/Whitex2.png"
+html_logo = "images/logo/White.png"
 html_show_sourcelink = True
 html_static_path = ['_static']
 
