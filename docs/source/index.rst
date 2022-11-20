@@ -6,11 +6,8 @@ Smart Garden
     .. image:: ../../Documentation/Images/Smart_Garden.png
 
 
-Welcome to the documentation page of the |Product|, an electronic board based on the ESP32 capable
- of controlling a combination of irrigation valves and/or water pumps.
-
-It can be powered from a :math:`24 V_{AC}` supply, or a regulated supply in the range of :math:`12-24 V_{DC}` for exclusive DC operations.
-
+Welcome to the documentation page of the |Product|, an electronic board based on the ESP32 capable of controlling a combination of 4 irrigation valves and/or water pumps, 
+supporting AC & DC voltages.
 
 Contents
 --------

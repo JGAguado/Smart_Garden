@@ -7,7 +7,8 @@
 [![BuyMeCoffee][buymecoffee-shield]][buymecoffee]
 
 # Smart Garden
-The Smart Smart Garden provides an ESP32 based interface for controlling up to 4 relays. The output of the relays is a 24VAC or a selectable 5-24VDC power, mainly targeted to control sprinkles.
+The Smart Garden is an electronic board based on the ESP32 capable of controlling a combination of 4 irrigation valves and/or water pumps, 
+supporting AC & DC voltages
 
 <p float="left">
    <img src="./Documentation/Images/Top.png" width="49%">
