@@ -1,1 +1,1 @@
-python -m pip install sphinx-copybutton
+pip install sphinx-copybutton
