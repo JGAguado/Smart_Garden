@@ -2,6 +2,7 @@
 [![Documentation Status][documentation-shield]][documentation]
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE)
+[![BuyIt][buyit-shield]][tindie]
 
 [![Project Maintenance][maintenance-shield]][maintenance]
 [![BuyMeCoffee][buymecoffee-shield]][buymecoffee]
@@ -36,3 +37,6 @@ supporting AC & DC voltages
 
 [buymecoffee-shield]: https://img.shields.io/badge/buy%20me%20a%20coffee-support-yellow.svg?style=for-the-badge
 [buymecoffee]: https://www.buymeacoffee.com/J.G.Aguado
+
+[buyit-shield]: https://img.shields.io/badge/get%20it%20on-tindie-247d84.svg?style=for-the-badge
+[tindie]: https://www.tindie.com/products/jgaguado/smart-garden/
