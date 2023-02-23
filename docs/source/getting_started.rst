@@ -111,7 +111,7 @@ The connection port of each of the outputs is located on the top left part of th
 
 .. figure:: images/assembly/outputs.png
     :align: right
-    :figwidth: 200px
+    :figwidth: 300px
 
 From left to right, the pin definion of each output is:
 
