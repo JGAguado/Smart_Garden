@@ -38,7 +38,7 @@ to get it ready to work in your network:
 
 1. Power the board, and let it run for 1-2 minutes. When the board cannot connect to a WiFi network, it will 
    create a fallback hotspot.
-2. Use a smartphone or tablet and go to the WiFi settings, connect to the recently created *Smart-Garden* hotspot with the password *SmartGarden*.
+2. Use a smartphone or tablet and go to the WiFi settings, connect to the recently created *Smart-Garden* hotspot with the password *smartgarden*.
 3. Access to the captive portal and open the browser if doesn't pop up automatically.
 4. Enter your network setttings and press *Save*.
 

@@ -146,7 +146,7 @@ In order to provide a feedback of the DC regulated voltage that would be output,
 Since it is designed in a voltage divider configuration for avoiding the input read above 3.3V to the microcontroller, the correspondent equation for obtaining 
 the real voltage is as follows:
 
-:math:`V_{real} = \frac{11.2k\omega}{1.2k\omega} \cdot V_{measured} = 9.33 \cdot V_{measured}`
+:math:`V_{real} = \frac{11.2k\Omega}{1.2k\Omega} \cdot V_{measured} = 9.33 \cdot V_{measured}`
 
 Communications
 -----------
