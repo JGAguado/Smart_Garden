@@ -29,11 +29,16 @@ ota:
 
 #Public location of this yaml file
 dashboard_import:
-  package_import_url: github://JGAguado/Smart_Garden/tree/main/docs/source/files/configuration.yaml
+  package_import_url: github://JGAguado/Smart_Garden/docs/source/files/configuration.yaml
   import_full_config: false
 
 # Enable fallback hotspot (captive portal) in case wifi connection fails
 captive_portal:
+
+esp32_improv:
+  authorizer: none
+
+improv_serial:
 
 wifi:
   ap:
