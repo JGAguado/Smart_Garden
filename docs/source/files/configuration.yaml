@@ -1,7 +1,7 @@
 substitutions:
   device_name: "smart-garden"
   friendly_name: "Smart Garden"
-  project_name: "smart-garden"
+  project_name: "smart.garden"
   project_version: "1.0"
   ap_ssid: "Smart-Garden"
   ap_pwd: "smartgarden"
