@@ -36,7 +36,7 @@ please contact me directly:
 :Contact: |Email|
 
 :Board: |Product|
-:Revision: |Version|
+:Version: |Version|
 :Date: |Date|
 
 
