@@ -83,7 +83,7 @@ Next to the power jack connector, there are 4 slide switches that configure each
 The connection port of each of the outputs is located on the top left part of the board and is done through 
 3.5mm screw terminals. The polarity of the connection (for DC operations) is defined on the PCB silkscreen.
 
-As an indicator that the relay is being activated, a :term:`LED`
+As an indicator that the relay is being activated, a :term:`LED` will turn on/off, depending on the relay's state.
 
 .. figure:: images/assembly/outputs.png
     :align: right
@@ -137,7 +137,7 @@ Enclosure
 The |Product| has been designed to fit in the electronics enclosure LK-PLC01,
 compatible with DIN rails and screws, and it is recommended for indoors only.
 
-.. figure:: ../../Documentation/Images/SG_1.png
+.. figure:: images/assembly/enclosure.png
     :align: center
     :figwidth: 300px
 

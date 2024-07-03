@@ -20,4 +20,4 @@ the |Product| can be deployed and installed on it's final place, like an electri
 
 4. If you intend to use the auxiliary input/output port for reading any sensor/pushbutton, make sure it's correctly connected.
 
-4. Power the |Product| through the Jack port.
+5. Power the |Product| through the Jack port.

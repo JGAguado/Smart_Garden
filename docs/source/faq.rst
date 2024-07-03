@@ -1,8 +1,8 @@
-:term:`FAQ`
+💬 :term:`FAQ`
 =============================
 
 After connecting everything and turning on the |Product|, the power :term:`LED` doesn't turn on, why?
-    If the board is connected correctly and you cannot see the power :term:`LED` on, disconnect the power immediately.
+    ¿Did you soldered the jumper for the Power LED? If you did and the board is connected correctly and you cannot see the power :term:`LED` on, disconnect the power.
     Please check all the connections and measured with a multi-meter the resistance between 3V3 and :term:`gnd` in any port (:math:`I^2C` or Serial).
     If the resistance is close to zero you have a short circuit somewhere in your board, please check your connections and any soldering you've made
     If the problem persist reach :ref:`support`
