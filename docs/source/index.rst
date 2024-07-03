@@ -15,6 +15,9 @@ Contents
 :doc:`safety`
     How to operate and manipulate the |Product|.
 
+:doc:`details`
+    A deeper explanation on the systems of the |Product|.
+
 :doc:`getting_started`
     First steps for configuring and working with the |Product|.
 
@@ -38,25 +41,13 @@ please contact me directly:
 
 
 .. toctree::
-   :caption: Safety Guidelines
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
 
-   safety
-   
-.. toctree::
-   :caption: First steps
-   :maxdepth: 2
-   :hidden:
-
+   safety   
+   🛒 Buy <https://www.tindie.com/products/jgaguado/smart-garden/>   
+   details
    getting_started
-   programming
-   faq
-
-.. toctree::  
-   :caption: Design
-   :maxdepth: 2
-   :hidden:
-   
    design   
-   specs
+   glossary
+   faq 

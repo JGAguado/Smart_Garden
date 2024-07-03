@@ -2,8 +2,7 @@ substitutions:
   device_name: "smart-garden"
   friendly_name: "Smart Garden"
   project_name: "smart.garden"
-  project_version: "1.0"
-  ap_ssid: "Smart-Garden"
+  project_version: "2.0"
   ap_pwd: "smartgarden"
 
 esphome:
@@ -14,7 +13,7 @@ esphome:
     version: "${project_version}"
 
 esp32:
-  board: esp32dev
+  board: esp32-s2-saola-1
   framework:
     type: arduino
 
@@ -29,66 +28,63 @@ ota:
 
 #Public location of this yaml file
 dashboard_import:
-  package_import_url: github://JGAguado/Smart_Garden/docs/source/files/configuration.yaml
+  package_import_url: github://JGAguado/Smart_Garden/docs/source/files/configuration.yaml@main
   import_full_config: false
 
 # Enable fallback hotspot (captive portal) in case wifi connection fails
 captive_portal:
 
-esp32_improv:
-  authorizer: none
-
 improv_serial:
 
 wifi:
   ap:
-    ssid: "${ap_ssid}"
     password: "${ap_pwd}"
 
-# These relays will automatically turn off after 2 minutes
+
+sprinkler:
+  - id: sprinkler_ctrlr
+    main_switch: "Lawn Sprinklers"
+    auto_advance_switch: "Lawn Sprinklers Auto Advance"
+    reverse_switch: "Lawn Sprinklers Reverse"
+    multiplier_number: "Lawn Sprinkler Multiplier"
+    repeat_number: "Lawn Sprinkler Repeat"
+    valve_overlap: 0s
+    valves:
+      - valve_switch: "Zone 1"
+        enable_switch: "Enable Zone 1"
+        run_duration_number: "Zone 1 Duration"
+        valve_switch_id: relay_1
+      - valve_switch: "Zone 2"
+        enable_switch: "Enable Zone 2"
+        run_duration_number: "Zone 2 Duration"
+        valve_switch_id: relay_2
+      - valve_switch: "Zone 3"
+        enable_switch: "Enable Zone 3"
+        run_duration_number: "Zone 3 Duration"
+        valve_switch_id: relay_3
+      - valve_switch: "Zone 4"
+        enable_switch: "Enable Zone 4"
+        run_duration_number: "Zone 4 Duration"
+        valve_switch_id: relay_4
+
 switch:
   - platform: gpio
-    pin: 16
+    pin: 10
     id: relay_1
-    name: "Zone 1"
     icon: "mdi:sprinkler-variant"
-    on_turn_on:
-    - delay: 120s
-    - switch.turn_off: relay_1    
     
   - platform: gpio
-    pin: 17
+    pin: 11
     id: relay_2
     name: "Zone 2"
     icon: "mdi:sprinkler-variant"
-    on_turn_on:
-      - delay: 120s
-      - switch.turn_off: relay_2
     
   - platform: gpio
-    pin: 18
+    pin: 12
     id: relay_3
-    name: "Zone 3"
-    icon: "mdi:sprinkler-variant"
-    on_turn_on:
-      - delay: 120s
-      - switch.turn_off: relay_3      
+    icon: "mdi:sprinkler-variant" 
     
   - platform: gpio
-    pin: 19
+    pin: 13
     id: relay_4
-    name: "Zone 4"
     icon: "mdi:sprinkler-variant"
-    on_turn_on:
-      - delay: 120s
-      - switch.turn_off: relay_4  
-
-sensor:
-  - platform: adc
-    pin: A4
-    name: "VCC"
-    update_interval: 60s
-    filters:
-      - calibrate_linear:
-          - 0 -> 0
-          - 0.55 -> 5

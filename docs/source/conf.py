@@ -9,8 +9,8 @@ project = 'Smart Garden'
 author = 'J.G.Aguado'
 email = 'jon-garcia@hotmail.com'
 
-release = '2'
-version = 'V1'
+release = 'R1'
+version = 'V2'
 
 today = date.today()
 compile_date = today.strftime("%B %d, %Y")
@@ -21,9 +21,9 @@ rst_epilog  = """
 .. |Product| replace:: %s
 .. |Author| replace:: %s
 .. |Email| replace:: %s
-.. |Release| replace:: %s
+.. |Version| replace:: %s%s
 .. |Date| replace:: %s
-""" % (project + ' ' + version, author, email, release, compile_date)
+""" % (project, author, email, version, release, compile_date)
 
 
 # -- General configuration
@@ -59,3 +59,6 @@ html_static_path = ['_static']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+def setup(app):
+    app.add_css_file('my_theme.css')
