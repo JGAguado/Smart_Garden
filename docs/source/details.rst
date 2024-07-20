@@ -111,10 +111,9 @@ These pins are grouped in 4 sets, containing:
 
 .. Error::
     The silkscreen on the board is wrong, the right one should be:
-
-    .. figure:: images/assembly/digital_io_fixed.png
-        :align: right
-        :figwidth: 200px
+    
+    .. image:: images/assembly/digital_io_fixed.png
+      :width: 200px   
 
 .. Hint::
     These pins can be used to read if a pushbutton has been pressed and therefore activate the LED ring on the pushbutton, or simply to read any additional sensor like an analog soil moisture probe.
