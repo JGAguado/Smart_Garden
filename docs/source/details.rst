@@ -102,17 +102,19 @@ Auxiliar inputs/outputs:
 The connection port for these auxiliar pins is located on the top right part of the board and is done through 
 2.54 pins.
 
-.. figure:: images/assembly/digital_io.png
-    :align: right
-    :figwidth: 200px
-
 These pins are grouped in 4 sets, containing: 
 
-:Auxiliar 1: *GND*, *GPIO1* & *GPIO5*
-:Auxiliar 2: *GND*, *GPIO2* & *GPIO6*
-:Auxiliar 3: *GND*, *GPIO3* & *GPIO7*
-:Auxiliar 4: *GND*, *GPIO4* & *GPIO8*
+:Auxiliar 1: *GND*, *GPIO5* & *GPIO1*
+:Auxiliar 2: *GND*, *GPIO6* & *GPIO2*
+:Auxiliar 3: *GND*, *GPIO7* & *GPIO3*
+:Auxiliar 4: *GND*, *GPIO8* & *GPIO4*
 
+.. Error::
+    The silkscreen on the board is wrong, the right one should be:
+
+    .. figure:: images/assembly/digital_io_fixed.png
+        :align: right
+        :figwidth: 200px
 
 .. Hint::
     These pins can be used to read if a pushbutton has been pressed and therefore activate the LED ring on the pushbutton, or simply to read any additional sensor like an analog soil moisture probe.
